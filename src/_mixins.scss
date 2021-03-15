@@ -1,13 +1,28 @@
 //logo, navigation menu, header, content areas, and footer.
 
-logo{
-    background: $salmon-color;
-}
+.background{
+    color:$white-color;
+    margin: 20px 0;
+    width: 100%;
+    display:table;
 
-nav{
-    background: $grey-color;
-}
+    .container{
+        display:table-cell;
+        vertical-align: bottom;
+        padding-bottom: 20px;
 
-header{
-    background: $grey-color;
+        h1{
+            color: $salmon-color;
+            font-family: $fontbody;
+            font-size: 5rem;
+            line-height: 105%;
+            margin-bottom: 0;
+            padding: 0 10%;
+        }
+
+        p{
+            padding: 0 10%;
+            margin-top: 0;
+        }
+    }
 }

@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-logo {
-  background: #E65C43; }
-
-nav {
-  background: #666; }
-
-header {
-  background: #666; }
+.background {
+  color: #FFF; }
 
 /*basic styles*/
 body {
