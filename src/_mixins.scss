@@ -1,45 +1,13 @@
 //logo, navigation menu, header, content areas, and footer.
 
-@mixin logoBox($qty, $margin){
-    width: ((100% - (($qty - 1) * $margin)) / $qty);
-    &:nth-child(n){
-        margin-bottom: $margin;
-        margin-right: $margin;
-    }
+logo{
+    background: $salmon-color;
 }
 
-@mixin navigationBox($qty, $margin){
-    width: ((100% - (($qty - 1) * $margin)) / $qty);
-    &:nth-child(n){
-        margin-bottom: $margin;
-        margin-right: $margin;
-    }
-    
+nav{
+    background: $grey-color;
 }
 
-@mixin headerBox($qty, $margin){
-    width: ((100% - (($qty - 1) * $margin)) / $qty);
-    &:nth-child(n){
-        margin-bottom: $margin;
-        margin-right: $margin;
-    }
-    
-}
-
-@mixin contentBox($qty, $margin){
-    width: ((100% - (($qty - 1) * $margin)) / $qty);
-    &:nth-child(n){
-        margin-bottom: $margin;
-        margin-right: $margin;
-    }
-    
-}
-
-@mixin footerBox($qty, $margin){
-    width: ((100% - (($qty - 1) * $margin)) / $qty);
-    &:nth-child(n){
-        margin-bottom: $margin;
-        margin-right: $margin;
-    }
-    
+header{
+    background: $grey-color;
 }
