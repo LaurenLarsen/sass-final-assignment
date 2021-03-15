@@ -4,7 +4,7 @@ body {
   font-family: '$fontbody', sans-serif;
   font-size: 1em;
   line-height: 2em;
-  background: url("/images/bg.gif") repeat-x;
+  background: url("$bg") repeat-x;
   margin: 0; }
 
 main {
@@ -16,7 +16,7 @@ main {
 figure {
   width: 400px;
   height: 190px;
-  background: url("/images/logo.png") no-repeat 0 50px;
+  background: url("$logo") no-repeat 0 50px;
   float: left;
   display: block;
   margin: 0; }
@@ -124,13 +124,13 @@ footer {
     float: left;
     margin-right: 5px; }
     .social-media div .one {
-      background: url("/images/social-media.png") 0 0; }
+      background: url("$social") 0 0; }
     .social-media div .two {
-      background: url("/images/social-media.png") -38px 0; }
+      background: url("$social") -38px 0; }
     .social-media div .three {
-      background: url("/images/social-media.png") -76px 0; }
+      background: url("$social") -76px 0; }
     .social-media div .four {
-      background: url("/images/social-media.png") -114px 0; }
+      background: url("$social") -114px 0; }
   .social-media a {
     display: block;
     width: 36px;

@@ -3,7 +3,7 @@ body {
   font-family: '$fontbody', sans-serif;
   font-size: 1em;
   line-height: 2em;
-  background: url("/images/bg.gif") repeat-x;
+  background: url("$bg") repeat-x;
   margin: 0; }
 
 main {
